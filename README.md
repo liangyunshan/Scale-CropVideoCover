@@ -26,3 +26,19 @@
   ## Make
     - Modify the Makefile as needed
     - Execute the 'make' command
+  ## Use
+    - Switch to the path of the file where the program resides
+    - ./extractImg <timestamp> <videoPath> <coverName>
+    example:
+        ./extractImg 1 r8.mp4 r8.jpeg
+        ps:extract cover at the $timestamp from video which path is $videoPath ,and save image into $coverName
+    
+  ## Note
+    you may meet the problem:
+        error while loading shared libraries: libavformat.so.56: cannot open shared object file: No such file or directory
+    solution:
+        this problem is due to lack of FFMPEG libraries,so you should export lib,as shown below:
+        - export LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH
+        the "./lib" is my FFMPEG's lib path,you should take your
+      
+    
