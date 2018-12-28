@@ -1,5 +1,5 @@
 # Scale-CropVideoCover                                                  缩放裁剪视频封面                                               
-en:                                                                     zh-cn:   
+en:                                                                     中文:   
 - Base on FFMPEG                                                        基于FFMPEG
 - Specific steps:                                                       实现步骤：
     - 1.extract cover image from video;                                     1.从视频中提取原始封面图片帧数据
@@ -36,10 +36,10 @@ en:                                                                     zh-cn:
         is $videoPath ,and save image into $coverName
     
   ## Note                                                               注意     
-    you may meet the problem:                                               你可能会遇到这个问题：
+    - you may meet the problem:                                              你可能会遇到这个问题：
         error while loading shared libraries: libavformat.so.56:              error while loading shared libraries: libavformat.so.56:
         cannot open shared object file: No such file or directory             cannot open shared object file: No such file or directory
-solution:                                                                   解决办法：
+    - solution:                                                              解决办法：
         this problem is due to lack of FFMPEG libraries,so you                  这个问题是由于程序无法链接FFMPEG的运行库，因此你
         should export lib,as shown below:                                       需要这么做，如下所示：
            export LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH                            export LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH
