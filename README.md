@@ -1,10 +1,10 @@
 # Scale-CropVideoCover                                                  缩放裁剪视频封面                                               
 en:                                                                     中文:   
-- Base on FFMPEG                                                        基于FFMPEG
-- Specific steps:                                                       实现步骤：
-    - 1.extract cover image from video;                                     1.从视频中提取原始封面图片帧数据
-    - 2.scale image to appropriate size;                                    2.将原始图片按比例缩放
-    - 3.finally,crop it to final size.                                      3.最后根据实际需要进行裁剪
+- Base on FFMPEG------------------------------------------------------- 基于FFMPEG
+- Specific steps:------------------------------------------------------ 实现步骤：
+    - 1.extract cover image from video;-----------------------------------1.从视频中提取原始封面图片帧数据
+    - 2.scale image to appropriate size;----------------------------------2.将原始图片按比例缩放
+    - 3.finally,crop it to final size.------------------------------------3.最后根据实际需要进行裁剪
  ## Actual effect                                                       实际效果
     - 1.video name:r8.mp4 size:1920*1080                                    1.视频名称：r8.mp4 尺寸：1920*1080
         - original cover image(1920*1080):                                      原始封面图片(1920*1080):
