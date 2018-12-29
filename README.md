@@ -1,6 +1,7 @@
 # Scale-CropVideoCover                                                  缩放裁剪视频封面                                               
 ![Travis](https://img.shields.io/badge/Base-FFMPEG-brightgreen.svg)
 ![Travis](https://img.shields.io/badge/Build-Passing-brightgreen.svg)
+![Travis](https://img.shields.io/badge/Make-Makefile-brightgreen.svg)
 - Base on FFMPEG------------------------------------------------------- 基于FFMPEG
 - Specific steps:------------------------------------------------------ 实现步骤：
     - 1.extract cover image from video;-----------------------------------1.从视频中提取原始封面图片帧数据
